@@ -1,0 +1,39 @@
+.Akomodasi-wrap {
+  display: flex;
+  margin-top: 1%; /* Mengurangi margin top */
+}
+
+.container-akomodasi {
+  flex: 1;
+  padding: 10px; /* Mengurangi padding */
+  border-radius: 6px; /* Mengurangi border radius */
+}
+
+.button-tambah-akomodasi {
+  padding: 8px 16px; /* Mengurangi padding */
+  font-size: 14px; /* Mengurangi ukuran font */
+  border-radius: 3px; /* Mengurangi border radius */
+  margin-left: 82.8%;
+}
+
+.table-akomodasi-content {
+  margin-top: 16px; /* Mengurangi margin top */
+}
+
+.table-akomodasi-content table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-left: 25%;
+}
+
+.table-akomodasi-content th,
+.table-akomodasi-content td {
+  padding: 8px; /* Mengurangi padding */
+  border: 1px solid #ccc;
+  font-size: 14px; /* Mengurangi ukuran font */
+}
+
+.table-akomodasi-content th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}

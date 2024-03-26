@@ -1,0 +1,40 @@
+.Agen-wrap {
+    display: flex;
+    margin-top: 1%; /* Mengurangi margin top */
+  }
+  
+  .container-agen {
+    flex: 1;
+    padding: 10px; /* Mengurangi padding */
+    border-radius: 6px; /* Mengurangi border radius */
+  }
+  
+  .button-tambah-agen {
+    padding: 8px 16px; /* Mengurangi padding */
+    font-size: 14px; /* Mengurangi ukuran font */
+    border-radius: 3px; /* Mengurangi border radius */
+    margin-left: 85.7%;
+  }
+  
+  .table-agen-content {
+    margin-top: 16px; /* Mengurangi margin top */
+  }
+  
+  .table-agen-content table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 25%;
+  }
+  
+  .table-agen-content th,
+  .table-agen-content td {
+    padding: 8px; /* Mengurangi padding */
+    border: 1px solid #ccc;
+    font-size: 14px; /* Mengurangi ukuran font */
+  }
+  
+  .table-agen-content th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
