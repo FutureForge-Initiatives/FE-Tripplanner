@@ -38,3 +38,82 @@
     font-weight: bold;
   }
   
+  .action-agen-edit {
+    background-color: #3f49dd; /* Red color for delete action */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border radius */
+    padding: 8px 15px; /* Add padding */
+    cursor: pointer; /* Add pointer cursor on hover */
+    font-size: 16px; /* Set font size */
+    margin-left: 25%;
+  }
+  
+  .action-agen:hover {
+    background-color: #cc0000; /* Darker red color on hover */
+  }
+
+  .action-agen-delete {
+    background-color: #ff0000; /* Red color for delete action */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border radius */
+    padding: 8px 15px; /* Add padding */
+    cursor: pointer; /* Add pointer cursor on hover */
+    font-size: 16px; /* Set font size */
+    margin-left: 4%;
+  }
+
+  .action-agen-delete:hover {
+    background-color: #703838; /* Darker red color on hover */
+  }
+
+  .action-agen-edit:hover {
+    background-color: #a32121; /* Darker red color on hover */
+  }
+
+  .popup{
+    max-width: fit-content;
+  }
+
+  .popup-content{
+    justify-content: center;
+    
+  }
+
+  .edit-judul{
+    text-align: center;
+  }
+
+  .popup-content-form {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box; /* Untuk memastikan padding tidak menambah lebar input */
+  }
+
+  .tambah-form {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box; /* Untuk memastikan padding tidak menambah lebar input */
+  }
+  
+  .close-btn-form {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-btn-form:hover {
+    background-color: #bd2130;
+  }
+  

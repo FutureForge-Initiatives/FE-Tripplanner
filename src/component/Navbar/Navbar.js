@@ -54,7 +54,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link smooth to="/daftar">
+            <Link smooth to="/Register">
               Daftar
             </Link>
           </li>
