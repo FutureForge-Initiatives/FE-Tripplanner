@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Sidebar.css"
+import "./Sidebar.css";
 
 function Sidebar() {
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
+  };
+
   return (
     <div className="wrap-sidebar">
       <div className="sidebar-logo">Trip Planner Admin</div>
@@ -20,8 +26,21 @@ function Sidebar() {
           <li className="sidebar-item">
             <Link to="/Agen&Admin/Destinasi">Destinasi</Link>
           </li>
-          <li className="sidebar-item">
-            <Link to="/Agen&Admin/Akomodasi">Akomodasi</Link>
+          <li className="sidebar-item dropdown">
+            <span onClick={toggleDropdown}>Akomodasi</span>
+            {showDropdown && (
+              <ul className="dropdown-content">
+                <li>
+                  <Link to="/Agen&Admin/Akomodasi?type=hotel">Hotel</Link>
+                </li>
+                <li>
+                  <Link to="/Agen&Admin/Akomodasi?type=transportasi">Transportasi</Link>
+                </li>
+                <li>
+                  <Link to="/Agen&Admin/Akomodasi?type=kuliner">Kuliner</Link>
+                </li>
+              </ul>
+            )}
           </li>
           <li className="sidebar-item">
             <Link to="/Agen&Admin/Paket">Paket</Link>

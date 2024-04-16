@@ -12,7 +12,7 @@ function Akomodasi() {
       <div className="Akomodasi-wrap">
         <div className="container-akomodasi">
           <Link to="/tambah-akomodasi">
-            <button className="button-tambah-akomodasi">Tambah Akomodasi</button>
+            <button className="button-tambah-akomodasi">Tambah Paket</button>
           </Link>
           <div className="table-akomodasi-content">
             <table>

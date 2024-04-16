@@ -238,5 +238,19 @@ label {
     height: 50%;
     border-radius: 10px;
   }
+
+  .button-invite {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  
+  
+
+
   
   

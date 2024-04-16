@@ -10,6 +10,8 @@ import Pengguna from "./Admin/Page/Pengguna/Pengguna";
 import Destinasi from "./Admin/Page/Destination/Destinasi";
 import Akomodasi from "./Admin/Page/Akomodasi/Akomodasi";
 import Paket from "./Admin/Page/Paket/Paket";
+import About from "./component/About/about";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/Agen&Admin/Destinasi" element={<Destinasi />} />
         <Route path="/Agen&Admin/Akomodasi" element={<Akomodasi />} />
         <Route path="/Agen&Admin/Paket" element={<Paket />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   );

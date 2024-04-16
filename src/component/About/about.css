@@ -1,0 +1,43 @@
+.trip-planner {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about,
+  .features {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about h2,
+  .features h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about p,
+  .features ul {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
